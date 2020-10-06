@@ -1,28 +1,46 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <a-layout id="components-layout-demo-top" class="layout">
+    <a-layout-header>
+      <div class="logo" />
+      <a-menu
+        theme="dark"
+        mode="horizontal"
+        :default-selected-keys="menuIndex"
+        :style="{ lineHeight: '64px' }"
+      >
+        <a-menu-item key="index">
+          Home
+        </a-menu-item>
+        <a-menu-item key="upload">
+          Upload
+        </a-menu-item>
+      </a-menu>
+    </a-layout-header>
+    <a-layout-content class="container">
+      <div class="content">
+        <router-view></router-view>
+      </div>
+    </a-layout-content>
+  </a-layout>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name: "App",
+  data() {
+    return {
+      menuIndex: ["index"],
+    };
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.container {
+  padding: 50px;
+}
+.content {
+  padding: "24px";
+  min-height: "400px";
 }
 </style>
