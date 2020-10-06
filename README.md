@@ -16,8 +16,11 @@ This is an app for all developers. App expect to save all software versions on t
 
 ## (2) Link to Project UI
 
-This is our project UI link https://github.com/test4cz/showzhen/blob/master/showzhen.png
-THis is our project code link https://github.com/test4cz/showzhen.git
+This is our project UI link :
+https://github.com/ptyz030529/mirror-web/blob/master/screenshot/racing-1.png
+https://github.com/ptyz030529/mirror-web/blob/master/screenshot/racing-2.png
+https://github.com/ptyz030529/mirror-web/blob/master/screenshot/racing-3.png
+THis is our project code link https://github.com/ptyz030529/mirror-web
 
 ## (3) What does your application/UI do?
 
