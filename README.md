@@ -1,4 +1,4 @@
-# <mirror-app>
+# <op-mirrors>
 
 Before submitting a PR containing your team's project information:
 
@@ -7,8 +7,7 @@ Before submitting a PR containing your team's project information:
 
 ## (0) Project Name and Team Slack Handles
 
-Our project name is 'mirror-app'. Our team is filecoin miner and also we're developing IPFS applications.
-Slack is \_\_
+Our project name is 'op-mirrors'. Our team is filecoin miner and also we're developing IPFS applications.
 
 ## (1) Brief Project Description
 
